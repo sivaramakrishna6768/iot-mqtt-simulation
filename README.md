@@ -3,7 +3,7 @@
 
 This project simulates a virtual environmental station that collects data from temperature, humidity, and CO₂ sensors, and publishes this data to a ThingSpeak channel using the MQTT protocol.
 
-It was completed as part of **CIS600: Internet of Things - Application Development (Spring 2025)**.
+It was completed as part of **CIS600 : Internet of Things - Application Development (Spring 2025)**.
 
 ---
 
