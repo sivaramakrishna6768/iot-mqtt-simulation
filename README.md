@@ -13,7 +13,8 @@ It was completed as part of **CIS600: Internet of Things - Application Developme
 |-----------|-------------|
 | `mqtt_thingspeak_publisher.py` | Simulates virtual sensor data (Temperature, Humidity, CO₂) and publishes it to ThingSpeak every 15 seconds using MQTT. Also logs the data locally in `sensor_log.txt`. |
 | `last_5_hour_data.py` | Parses `sensor_log.txt` and prints data for a selected sensor from the last 5 hours. |
-| `sensor_log.txt` | (Optional) Auto-generated file storing timestamped sensor readings locally. |
+| `sensor_log.txt` | Auto-generated file storing timestamped sensor readings locally. |
+| `vpalapar_Assignment_3_IoT_App_Dev.pdf` | Final submission pdf file with the brief explanation, screenshots, and reflection. |
 
 ---
 
@@ -42,24 +43,28 @@ It was completed as part of **CIS600: Internet of Things - Application Developme
 
 ---
 
+## 🚀 How To Run
+
+1. **Install dependencies**
+2. **Replace MQTT credentials in** `mqtt_thingspeak_publisher.py`
+3. **Run the script**  
+4. **Watch the live graphs on your ThingSpeak channel dashboard**  
+
+---
+
 ## 📸 Screenshots
 
-Screenshots of the following were included in the report:
+Screenshots of the following were included in the submission pdf file :
 - ThingSpeak Channel Dashboard with live graph updates
 - MQTT Device credentials screen
-- Console output from both scripts
+- Console output from both python scripts
 - Contents of the `sensor_log.txt` file
 
 ---
 
 ## ✍️ Author
 
-**Sivaramakrishna**  
+**Venkata Sri Siva Ramakrishna Palaparthy**  
 Syracuse University – M.S. Computer Science  
-Course: CIS600 – Internet of Things
 
 ---
-
-## 📃 License
-
-This project is for academic purposes only as part of coursework. All rights reserved.
